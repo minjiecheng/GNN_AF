@@ -56,7 +56,7 @@ Then you will get the experimental result for `Squirrel` of `GCN+AF` in Table 3,
 
 > GCN on dataset Squirrel, in 10 repeated experiment: test acc mean = 53.5735 ± 0.6535         val acc mean = 53.961
 
-The default configuration runs `10` repeated experiments and reports the mean test/validation performance.
+The default configuration runs `10` repeated experiments and reports the mean test performance.
 
 ### Changing the Architecture
 

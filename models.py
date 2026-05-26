@@ -5,8 +5,9 @@ from torch.nn import Linear
 from torch.nn import Parameter
 import torch.nn.functional as F
 from torch_geometric.transforms import LineGraph
-from torch_geometric.nn import GATConv, SAGEConv, GINConv, GCNConv
 from models_mp import GCN_MP, APPNP_MP, BernNet_MP, ChebnetII_prop
+from torch_geometric.nn import GATConv, SAGEConv, GINConv, GCNConv
+
 
 def comp_edge_weight(edge_index, q):
     """

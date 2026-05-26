@@ -4,8 +4,8 @@ import torch
 import torch.nn as nn
 from utils import cheby
 from torch import Tensor
-from scipy.special import comb
 from torch.nn import Parameter
+from scipy.special import comb
 import torch.nn.functional as F
 from typing import Optional, Tuple
 from torch_scatter import scatter_add

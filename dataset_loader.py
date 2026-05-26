@@ -1,12 +1,13 @@
 import torch
 import pickle
 import os.path as osp
+from torch_sparse import coalesce
 import torch_geometric.transforms as T
 from torch_geometric.datasets import Planetoid
 from torch_geometric.datasets import Amazon
-from torch_sparse import coalesce
-from torch_geometric.data import InMemoryDataset, download_url, Data
 from torch_geometric.utils.undirected import to_undirected
+from torch_geometric.data import InMemoryDataset, download_url, Data
+
 
 
 class dataset_heterophily(InMemoryDataset):
